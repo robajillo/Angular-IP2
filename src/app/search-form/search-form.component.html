@@ -6,12 +6,12 @@
         class="form-control col-sm-6"
         placeholder="Search.."
         name="searchName"
+        aria-hidden="true"
       />
       <!-- [(ngModel)]="searchName" -->
-      <button class="btn btn-info">
+      <button class="btn btn-primary" (click)="search()">
         <i class="fa fa-search"></i>
       </button>
-      <!-- (click)="search() -->
     </form>
   </div>
 </div>
