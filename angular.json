@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Angular-Week2IP"
+    }
+  },
+  "defaultProject": "Angular-Week2IP",
+  "cli": {
+    "analytics": false
+  }
 }
