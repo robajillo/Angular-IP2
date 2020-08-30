@@ -1,4 +1,7 @@
-form.form input[type="text"] {
+* {
+  justify-content: center;
+}
+.form input[type="text"] {
   padding: 10px;
   font-size: 17px;
   border: 1px solid grey;
@@ -7,7 +10,7 @@ form.form input[type="text"] {
   background: #f1f1f1;
 }
 
-form.form button {
+.form button {
   float: left;
   width: 20%;
   padding: 10px;
@@ -19,41 +22,6 @@ form.form button {
   cursor: pointer;
 }
 
-form.form button:hover {
+.form button:hover {
   background: #0b7dda;
 }
-
-/* form.form::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-.col {
-  padding-top: 40px;
-  padding-bottom: 40px;
-}
-#search {
-  border-color: #00ffff;
-}
-input {
-  background-color: #00ffff;
-  height: 46px;
-  border-radius: 100px;
-  font-family: "Berkshire Swash", cursive;
-  font-size: 14px;
-  color: #00ffff;
-}
-.btn {
-  border-radius: 0 20px 20px 0;
-  height: 46px;
-  font-family: "Berkshire Swash", cursive;
-}
-input::placeholder {
-  color: #00ffff;
-}
-input[type="text"] {
-  background-color: red;
-  color: #00ffff;
-  font-family: "Berkshire Swash", cursive;
-} */
