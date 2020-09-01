@@ -1,0 +1,29 @@
+<div class="container-full">
+  <h2 class="mb-5 text-center gsearch">Git Search User</h2>
+  <app-search-form (searchOutput)="searchs($event)"></app-search-form>
+
+  <div class="jumbotron">
+    <div class="profiles">
+      <a href="#">
+        <img
+          src="{{ user.avatar_url }}"
+          height="200px;"
+          width="200px;"
+          class="center"
+        />
+      </a>
+    </div>
+    <div class="login">
+      {{ user.login }}
+    </div>
+    <div class="details">
+      <div class="heading">
+        <h3>
+          {{ user.followers }}Followers {{ user.following }} Following
+          {{ user.public_repos }} Repository
+        </h3>
+      </div>
+    </div>
+  </div>
+</div>
+<app-footer></app-footer>

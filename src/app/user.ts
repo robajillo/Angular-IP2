@@ -1,7 +1,11 @@
 export class User {
-  public avatar_url: any;
+  constructor(
+    public avatar_url: string,
+    public login: string,
+    public public_repos: number,
+    public followers: number,
+    public following: number,
 
-  public followers: any;
-  public following: any;
-  public repository: any;
+    public created_at: Date
+  ) {}
 }

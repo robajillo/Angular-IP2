@@ -1,0 +1,63 @@
+.container-full {
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+}
+#d {
+  font-family: "Berkshire Swash", cursive;
+  font-size: 18px;
+}
+
+#gsearch {
+  color: #00ffff;
+  font-family: "Berkshire Swash", cursive;
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+
+.card-body {
+  background-color: #00ffff;
+  border: none;
+  border-radius: 0px;
+  font-family: "Rochester", cursive;
+}
+
+.repo-number {
+  font-size: 40px;
+  font-weight: lighter;
+  font-family: "Berkshire Swash", cursive;
+}
+
+#repo {
+  color: #00ffff;
+}
+
+#header {
+  font-family: "Calligraffitti", cursive;
+  color: white;
+  font-size: 30px;
+}
+
+#des {
+  font-family: "Rochester", cursive;
+  font-size: 25px;
+}
+#branch {
+  font-family: "Rochester", cursive;
+}
+
+.card {
+  border: none;
+  border-radius: 0px;
+}
+.card-title {
+  text-align: center;
+}
+h1 {
+  text-align: center;
+  font-family: "Metal Mania";
+  color: #00695c;
+}
+.card-footer {
+  text-align: center;
+}

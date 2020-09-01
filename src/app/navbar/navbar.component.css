@@ -1,15 +1,24 @@
 nav {
-  display: flex;
-  justify-content: space-around;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  font-size: 0.9em;
-  background-color: #56ccf2;
-  padding: 20px;
-  margin-bottom: 10px;
+  background-color: #00695c;
+}
+.nav-links {
+  position: relative;
+  right: -70%;
+}
+
+.nav-links li {
+  font-weight: bold;
+  font-family: "Berkshire Swash", cursive;
+  border-color: #56ccf2;
+  font-size: 33px;
+  color: #56ccf2;
+}
+
+.nav-links li:hover {
+  color: white;
+  cursor: pointer;
 }
 nav a {
-  text-decoration: none;
-  color: white;
-  margin: 0px 30px;
+  font-size: 1.75em;
+  color: #56ccf2;
 }

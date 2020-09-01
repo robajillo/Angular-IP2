@@ -1,0 +1,49 @@
+.container-full {
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 3px;
+}
+
+.center {
+  border-radius: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.jumbotron {
+  background-color: #00695c;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.button {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.heading {
+  display: auto;
+  text-align: center;
+  justify-content: space-between;
+  padding-top: 20px;
+
+  font-size: 50px;
+}
+.login {
+  text-align: center;
+  font-family: "Berkshire Swash", cursive;
+}
+
+.container-full {
+  background-color: rgba(0, 0, 0, 0);
+  height: inherit;
+}
+
+.gsearch {
+  font-size: 60px;
+  color: #00695c;
+
+  margin-top: 20px;
+  margin-bottom: 40px;
+  font-family: "Berkshire Swash", cursive;
+}

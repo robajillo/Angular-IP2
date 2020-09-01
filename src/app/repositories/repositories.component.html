@@ -1,0 +1,22 @@
+<div class="container">
+  <h1>Git Search</h1>
+
+  <app-search-form (searchOutput)="repoSearch($event)"></app-search-form>
+  <div class="card" *ngFor="let repository of repo">
+    <div class="card-title">
+      {{ repository.login }}
+      {{ repository.name }}
+    </div>
+    <div class="card-body">
+      <p id="des">{{ repository.description }}</p>
+      <p id="d">{{ repository.created_at | date | uppercase }}</p>
+      <p>
+        {{ repository.login }}
+      </p>
+      <div class="card-footer">
+        {{ repository.language }}
+      </div>
+    </div>
+  </div>
+</div>
+<app-footer></app-footer>
