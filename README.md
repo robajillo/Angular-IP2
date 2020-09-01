@@ -24,9 +24,7 @@ Git-Search app that was generated using angular cli where users may enter a GitH
 
 (pedantic-lumiere-e55bc0.netlify.app)
 
-https://robajillo.github.io/quote-app/
-
-## Technologies used
+#### Technologies used
 
 - Angular
 - HTML
@@ -36,7 +34,7 @@ https://robajillo.github.io/quote-app/
 - Typescript
 - Markdown
 
-## License and terms of use
+#### License and terms of use
 
 MIT License this application's source code is free for any open source projects
 
